@@ -12,6 +12,7 @@ NUM_CLASSES = len(CLASS_NAMES)
 # Background
 IGNORE_LABEL = 255
 
+# TODO: Analyze & adjust this
 COVERAGE_TRAIN_PCT = {
     "tool_shaft": 12.04, "tool_clasper": 2.24, "tool_wrist": 3.59,
     "thread": 1.00, "clamps": 0.15, "suturing_needle": 0.44,
